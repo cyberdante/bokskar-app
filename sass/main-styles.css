@@ -5819,6 +5819,67 @@ a.navbar-brand {
   padding: 0 15px;
   height: 50px; }
 
+.row-header {
+  margin: 0 auto;
+  padding: 0; }
+
+.roominess {
+  padding: 20px 0; }
+
+.room-under {
+  padding-bottom: 20px; }
+
+.row-footer {
+  background-color: #494948;
+  margin: 0 auto; }
+  .row-footer .info {
+    color: #C3C3CB; }
+    .row-footer .info .row {
+      padding: 10px 0; }
+      .row-footer .info .row label {
+        font-weight: normal;
+        font-size: medium; }
+      .row-footer .info .row .smaller {
+        font-size: medium; }
+      .row-footer .info .row .thin {
+        border-color: #9424D0;
+        color: #9424D0;
+        margin: 15px 0 0 0; }
+    .row-footer .info .topless {
+      padding-top: 0; }
+    .row-footer .info .bottomless {
+      padding-bottom: 0; }
+    .row-footer .info .form-group.bottomless {
+      margin-bottom: 0; }
+    .row-footer .info .btn-twitter {
+      font-size: medium;
+      padding-left: 0; }
+  .row-footer h4.hightened {
+    font-weight: bold;
+    color: white; }
+
+.sign-up-banner {
+  color: white;
+  background-color: #9424D0;
+  border-bottom: 2px solid white;
+  font-size: large;
+  margin: 0;
+  min-height: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center; }
+  .sign-up-banner .btn-primary {
+    background: #B000B0;
+    border-color: white;
+    border-radius: 0;
+    color: white; }
+
+.copyright {
+  background-color: #C3C3CB;
+  text-align: center; }
+  .copyright p.eighty {
+    padding: 20px 0 20px 0; }
+
 .full-width {
   width: 100%; }
 
@@ -5838,7 +5899,7 @@ body {
 
 .btn-primary {
   background: #9424D0;
-  color: #C3C3CB;
+  color: white;
   border-color: #9424D0; }
 
 .btn-default {
@@ -5849,19 +5910,10 @@ body {
 .btn-signing {
   text-transform: uppercase; }
 
-.row-header {
-  margin: 0 auto;
-  padding: 0; }
-
 .row-content {
   padding: 15px 0 15px 0;
   border-bottom: 1px ridge;
   min-height: 400px; }
-
-.row-footer {
-  background-color: #AfAfAf;
-  margin: 0 auto;
-  padding: 20px 0 20px 0; }
 
 .jumbotron {
   background-repeat: no-repeat;
