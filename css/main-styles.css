@@ -1,0 +1,159 @@
+.full-width {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+a.navbar-brand {
+  width: 65px;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 50px;
+}
+
+/* nav {
+  width: calc(100% - 70px);
+} */
+
+.btn-form-login {
+  text-align: center;
+}
+
+.sign-in-form {
+  visibility: hidden;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #9424D0;
+  color: #C3C3CB;
+  border-color: #9424D0;
+}
+
+.btn-default {
+  background: #C3C3CB;
+  color: #494948;
+  border-color: #494948;
+}
+
+ .btn-signing {
+   text-transform: uppercase;
+ }
+
+.row-header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row-content {
+  padding: 15px 0 15px 0;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.row-footer {
+  background-color: #AfAfAf;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: white;
+  color: #494948;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 500px;
+}
+
+.eighty {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-phrase {
+  color: #494948;
+  font-family: sans-serif;
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 40px !important;
+}
+
+.custom-glyphicon {
+  color: #9424D0;
+  font-weight: bold;
+}
+
+.enlarged {
+  text-align: center;
+  font-size: large;
+}
+
+.purple-haze {
+  color: #9424D0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.displaced-top {
+  margin-top: 15px;
+}
+
+.statement {
+  text-align: center;
+  text-transform: uppercase;
+  color: #494948;
+}
+
+address {
+  font-size: 80%;
+  margin: 0;
+  color: #0f0f0f;
+}
+
+body {
+    padding: 50px 0 0 0;
+    z-index: 0;
+}
+
+.navbar-default {
+     background: white;
+     color: #494948;
+     text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #494948;
+    text-transform: uppercase;
+    border-bottom: 4px solid #9424D0;
+    background: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:hover,
+ .navbar-default .navbar-nav > .open > a:focus {
+    text-transform: uppercase;
+}
+
+.navbar-nav .open .dropdown-menu > li > a,
+.navbar-nav .open .dropdown-menu {
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-nav .open .dropdown-menu > li > a:hover {
+    text-transform: uppercase;
+}
+
+.row-content {
+  min-height: 50px;
+  margin-bottom: 50px;
+}
