@@ -66,6 +66,17 @@
     .grn-text{
         color:#66ff33;
     }
+    .row.vdivide [class*='col-']:not(:last-child):after {
+        background: #9424D0;
+        width: 1px;
+        content: "";
+        display:block;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        min-height: 70px;
+    }
 </style>
 </head>
 
@@ -209,7 +220,7 @@
               </span>
             </div>
         </div>
-        <div class="row">
+        <div class="row vdivide">
             <div class="text-center"><h3>Meet Our Team</h3></div>
             <div class="text-center"><p>Team work = <em>Success</em></div>
             <div class="text-center"><hr class="hr-purple small"></div>
