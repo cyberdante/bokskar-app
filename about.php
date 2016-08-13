@@ -220,6 +220,8 @@
               </span>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row vdivide">
             <div class="text-center"><h3>Meet Our Team</h3></div>
             <div class="text-center"><p>Team work = <em>Success</em></div>
@@ -244,7 +246,6 @@
                     <hr class="hr-purple">
                     <div class="text-center">Your Name Here<br><span class="grn-text">resume@bokskar.com</div> 
             </div>
-            <div class="col-xs-2 v-divider"></div>
         </div>
         <div class="row">   
             <div class="strike">
