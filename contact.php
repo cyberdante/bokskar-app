@@ -47,6 +47,9 @@
     .small-input{
         max-width:200px;
     }
+    .no-disp{
+        display:none;
+    }
 </style>
    
 </head>
@@ -186,12 +189,31 @@
                         <label for="message" class="control-label">Your Message<span class="red-text">*</span> (Is there a message in the bottle?)</label>
                         <div>
                             <textarea class="form-control" rows="10" id="message"></textarea>
+                            <input type="text" class="form-control no-disp" id="hp">
                         </div>
+                    </div><!--form group end-->
+                </div><!--row end-->
+                <div class="row">
+                    <div class="form-group col-xs-12">
+                        <button type="button" class="btn btn-success">Send</button>
                     </div><!--form group end-->
                 </div><!--row end-->
             </form>
             </div><!--row end-->
         </div><!--contact info end-->
+        <!--<div class="nav navbar-nav">-->
+        <div>
+            <p class="text-center">
+                <span>Follow Us On.</span>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/BOKSKAR"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/bokskar/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/bokskar/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/bokskar.com"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/watch?v=-rwSPtjbXXY"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon" href="mailto:press@bokskar.com"><i class="fa fa-envelope-o"></i></a>
+            </p>
+        </div>
     </div><!--container end-->
      <?php include 'footer.php';?>
     
