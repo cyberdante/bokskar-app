@@ -91,9 +91,4 @@
               </div>
             </div>
         </div>
-<<<<<<< HEAD
     </footer>
-//comment
-=======
-    </footer>
->>>>>>> origin/master
