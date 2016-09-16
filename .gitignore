@@ -1,0 +1,6 @@
+# - OSXs .DS_Store
+.DS_Store
+
+# - Editors tmp files.
+*.swp
+*~
