@@ -9077,99 +9077,108 @@ body {
   width: 250px;
 }
 /* line 153, ../sass/main-styles.scss */
+.carousel-inner .carousel-row-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: block;
+  height: 13em;
+  overflow: hidden;
+}
+/* line 162, ../sass/main-styles.scss */
 .carousel-inner .carousel-caption {
   color: #494948;
   font-size: 20px;
   top: 60px;
 }
-/* line 158, ../sass/main-styles.scss */
+/* line 167, ../sass/main-styles.scss */
 .carousel-inner .last {
   color: #9424D0;
 }
-/* line 162, ../sass/main-styles.scss */
+/* line 171, ../sass/main-styles.scss */
 .carousel-inner .follow-us {
   display: flex;
   text-align: center;
 }
-/* line 165, ../sass/main-styles.scss */
+/* line 174, ../sass/main-styles.scss */
 .carousel-inner .follow-us .navbar-nav {
   display: inline-block;
 }
 
-/* line 171, ../sass/main-styles.scss */
+/* line 180, ../sass/main-styles.scss */
 .hidden {
   visibility: hidden;
 }
 
-/* line 175, ../sass/main-styles.scss */
+/* line 184, ../sass/main-styles.scss */
 .displaced-top {
   margin-top: 15px;
 }
 
-/* line 179, ../sass/main-styles.scss */
+/* line 188, ../sass/main-styles.scss */
 .statement {
   text-align: center;
   text-transform: uppercase;
   color: #494948;
 }
 
-/* line 185, ../sass/main-styles.scss */
+/* line 194, ../sass/main-styles.scss */
 address {
   font-size: 80%;
   margin: 0;
   color: #0f0f0f;
 }
 
-/* line 191, ../sass/main-styles.scss */
+/* line 200, ../sass/main-styles.scss */
 body {
   padding: 50px 0 0 0;
   z-index: 0;
 }
 
-/* line 196, ../sass/main-styles.scss */
+/* line 205, ../sass/main-styles.scss */
 .navbar-default {
   background: white;
   color: #494948;
   text-transform: uppercase;
 }
-/* line 201, ../sass/main-styles.scss */
+/* line 210, ../sass/main-styles.scss */
 .navbar-default .navbar-nav > .active > a {
   color: #494948;
   text-transform: uppercase;
   border-bottom: 4px solid #9424D0;
   background: white;
 }
-/* line 206, ../sass/main-styles.scss */
+/* line 215, ../sass/main-styles.scss */
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #494948;
   text-transform: uppercase;
   border-bottom: 4px solid #9424D0;
   background: white;
 }
-/* line 213, ../sass/main-styles.scss */
+/* line 222, ../sass/main-styles.scss */
 .navbar-default .navbar-nav > .open > a {
   text-transform: uppercase;
 }
-/* line 215, ../sass/main-styles.scss */
+/* line 224, ../sass/main-styles.scss */
 .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   text-transform: uppercase;
 }
 
-/* line 222, ../sass/main-styles.scss */
+/* line 231, ../sass/main-styles.scss */
 .navbar-nav .open .dropdown-menu {
   text-transform: uppercase;
 }
-/* line 223, ../sass/main-styles.scss */
+/* line 232, ../sass/main-styles.scss */
 .navbar-nav .open .dropdown-menu > li > a {
   text-transform: uppercase;
 }
 
-/* line 229, ../sass/main-styles.scss */
+/* line 238, ../sass/main-styles.scss */
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:hover {
   text-transform: uppercase;
 }
 
-/* line 233, ../sass/main-styles.scss */
+/* line 242, ../sass/main-styles.scss */
 .row-content {
   min-height: 50px;
   margin-bottom: 50px;
