@@ -1,0 +1,9 @@
+# - OSXs .DS_Store
+.DS_Store
+
+# - .sass-cache
+.sass-cache
+
+# - Editors tmp files.
+*.swp
+*~

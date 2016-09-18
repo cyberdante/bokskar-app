@@ -104,6 +104,10 @@ body {
   }
 }
 
+.purple {
+  color: $primary-color;
+}
+
 .purple-haze {
   color: $primary-color;
   text-align: center;
@@ -144,6 +148,15 @@ body {
     img {
       width: 250px;
     }
+  }
+
+  .carousel-row-wrapper {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    height: 13em;
+    overflow: hidden;
   }
 
   .carousel-caption {
