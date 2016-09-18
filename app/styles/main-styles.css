@@ -419,6 +419,13 @@ body .container-fluid {
   margin-bottom: 60px; }
   .carousel-inner .carousel-img-wrapper img {
     width: 250px; }
+.carousel-inner .carousel-row-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: block;
+  height: 13em;
+  overflow: hidden; }
 .carousel-inner .carousel-caption {
   color: #494948;
   font-size: 20px;
