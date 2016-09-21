@@ -1,7 +1,10 @@
-// @import "helpers/reset";
-@import "../styles/bootstrap.css";
-@import "../styles/bootstrap-theme.css";
-// @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+// Override bootstrap/font-awesome here
+
+//bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/bootstrap-social/bootstrap-social.scss";
+//endbower
 
 @import "helpers/variables";
 @import url(https://fonts.googleapis.com/css?family=Pacifico); //CSS import

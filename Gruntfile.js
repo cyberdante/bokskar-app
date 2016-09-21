@@ -204,6 +204,13 @@ module.exports = function (grunt) {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath:  /\.\.\//
       },
+
+      // Wire scss dependencies on main-styles.scss ---
+      scss: {
+        src: ['<%= yeoman.app %>/styles/main-styles.scss']
+      },
+      // ---
+
       test: {
         devDependencies: true,
         src: '<%= karma.unit.configFile %>',
@@ -220,7 +227,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
