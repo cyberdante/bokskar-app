@@ -44,6 +44,10 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         }
       },
+      scss: {
+        files: ['<%= yeoman.app %>/styles/main-styles.scss'],
+        tasks: ['sass:dev']
+      },
       jsTest: {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['newer:jshint:test', 'newer:jscs:test', 'karma']
@@ -429,6 +433,18 @@ module.exports = function (grunt) {
       unit: {
         configFile: 'test/karma.conf.js',
         singleRun: true
+      }
+    },
+
+    // Sass
+    sass: {
+      dev: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          '<%= yeoman.app %>/styles/main-styles.css': '<%= yeoman.app %>/styles/main-styles.scss'
+        }
       }
     }
   });
