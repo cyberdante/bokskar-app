@@ -1,5 +1,6 @@
 // Override bootstrap/font-awesome here
 
+
 //bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
@@ -30,8 +31,8 @@ body {
 
 body {
   .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
 
@@ -42,7 +43,7 @@ body {
 .icon-container,
 .media {
   margin-bottom: 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
 
   .glyphicon, .fa {
     color: $primary-color;

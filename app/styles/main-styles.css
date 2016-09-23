@@ -11450,11 +11450,6 @@ body {
   width: 100%;
 }
 
-body .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .btn-form-login {
   text-align: center;
 }
