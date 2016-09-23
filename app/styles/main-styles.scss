@@ -1,0 +1,290 @@
+// Override bootstrap/font-awesome here
+
+
+//bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/bootstrap-social/bootstrap-social.scss";
+//endbower
+
+@import "helpers/variables";
+@import url(https://fonts.googleapis.com/css?family=Pacifico); //CSS import
+@import "helpers/placeholders";
+@import "helpers/mixins";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/modal";
+@import "pages/index";
+@import "pages/about";
+@import "pages/_customer_dashboard";
+@import "components/buttons";
+
+html,
+body {
+  background-color: white;
+  font-family: 'Segoe UI', Segoe UI, sans-serif;
+  font-size: 16px;
+}
+.full-width {
+  width: 100%;
+}
+
+body {
+  .container-fluid {
+    // padding-left: 0;
+    // padding-right: 0;
+  }
+}
+
+.btn-form-login {
+  text-align: center;
+}
+
+.icon-container,
+.media {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .glyphicon, .fa {
+    color: $primary-color;
+    font-size: x-large;
+  }
+  .media-body {
+    .media-heading {
+      color: $dark-grey;
+    }
+    p {
+      color: $dark-grey;;
+    }
+  }
+}
+
+.sign-in-form {
+  visibility: hidden;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+.btn-primary {
+  background: $primary-color;
+  color: white;
+  border-color: $primary-color;
+  &.btn-signing {
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: $medium-purple;
+  }
+}
+
+.btn-default {
+  background: $secondary-color;
+  color: $dark-grey;
+  font-weight: normal;
+  border-color: $secondary-color;
+  &:hover {
+    background: $dark-grey;
+    color: $secondary-color;
+  }
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: white;
+  color: $dark-grey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 500px;
+}
+
+.eighty {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-phrase {
+  color: $dark-grey;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.custom-glyphicon {
+  color: $primary-color;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.enlarged {
+  text-align: center;
+  font-size: large;
+}
+
+.displaced-top-hr {
+  padding-top: 10px;
+  hr {
+    border-color: $primary-color;
+    color: $primary-color;
+  }
+}
+
+.purple-haze {
+  color: $primary-color;
+  text-align: center;
+  font-family: sans-serif;
+  h3, hr {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+  h3.kapitalized {
+    text-transform: capitalize;
+  }
+}
+
+.carousel-indicators {
+  bottom: 30px;
+  li {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+}
+
+.carousel-inner {
+  .step-number {
+    background-color: $primary-color;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+  }
+
+  .carousel-img-wrapper {
+    text-align: center;
+    margin-top: 165px;
+    margin-bottom: 60px;
+    img {
+      width: 250px;
+    }
+  }
+
+  .carousel-row-wrapper {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    height: 13em;
+    overflow: hidden;
+  }
+
+  .carousel-caption {
+    color: $dark-grey;
+    font-size: 20px;
+    top: 60px;
+  }
+  .last {
+    color: $primary-color;
+  }
+
+  .follow-us {
+    display: flex;
+    text-align: center;
+    .navbar-nav {
+      display: inline-block;
+    }
+  }
+}
+
+.carousel-control {
+
+  .glyphicon {
+    color: $primary-color;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.displaced-top {
+  margin-top: 15px;
+}
+
+.statement {
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark-grey;
+}
+
+address {
+  font-size: 80%;
+  margin: 0;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0 0 0;
+  z-index: 0;
+}
+
+.navbar-default {
+  background: white;
+  color: $dark-grey;
+  text-transform: uppercase;
+  .navbar-nav > {
+    .active > a {
+      color: $dark-grey;
+      text-transform: uppercase;
+      border-bottom: 4px solid $primary-color;
+      background: white;
+      &:hover, &:focus {
+        color: $dark-grey;
+        text-transform: uppercase;
+        border-bottom: 4px solid $primary-color;
+        background: white;
+      }
+    }
+    .open > a {
+      text-transform: uppercase;
+      &:hover, &:focus {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.navbar-nav .open .dropdown-menu {
+  > li > a {
+    text-transform: uppercase;
+  }
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:hover {
+  text-transform: uppercase;
+}
+
+hr.purple-haze {
+  border-color: #9424D0;
+
+  &.left {
+    margin-left: 15px;
+  }
+
+  &.right {
+    margin-right: 15px;
+  }
+}
+
+.row-content {
+  min-height: 50px;
+  margin: 50px -15px 15px -15px;
+}
