@@ -7,10 +7,3 @@
 # - Editors tmp files.
 *.swp
 *~
-
-# - added by Yeoman
-/node_modules
-/dist
-/.tmp
-/.sass-cache
-/bower_components
