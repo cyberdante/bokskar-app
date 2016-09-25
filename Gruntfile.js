@@ -44,6 +44,10 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         }
       },
+      scss: {
+        files: ['<%= yeoman.app %>/styles/main-styles.scss'],
+        tasks: ['sass:dev']
+      },
       jsTest: {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['newer:jshint:test', 'newer:jscs:test', 'karma']
@@ -204,6 +208,13 @@ module.exports = function (grunt) {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath:  /\.\.\//
       },
+
+      // Wire scss dependencies on main-styles.scss ---
+      scss: {
+        src: ['<%= yeoman.app %>/styles/main-styles.scss']
+      },
+      // ---
+
       test: {
         devDependencies: true,
         src: '<%= karma.unit.configFile %>',
@@ -220,7 +231,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -422,6 +433,18 @@ module.exports = function (grunt) {
       unit: {
         configFile: 'test/karma.conf.js',
         singleRun: true
+      }
+    },
+
+    // Sass
+    sass: {
+      dev: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          '<%= yeoman.app %>/styles/main-styles.css': '<%= yeoman.app %>/styles/main-styles.scss'
+        }
       }
     }
   });
