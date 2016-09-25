@@ -215,7 +215,8 @@ header {
   background: #9424D0;
   margin-top: 2px; }
   header.title {
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin: 0 15px; }
   header.info {
     padding-right: 10px; }
 
