@@ -1,7 +1,10 @@
 @import "../helpers/variables";
 
-.navbar-default {
-  opacity: 0.85;
+.nav {
+  padding-left: 0;
+  padding-right: 0;
+
+  opacity: 0.90;
 
   a.navbar-brand {
     width: 65px;

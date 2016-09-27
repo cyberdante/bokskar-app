@@ -11076,17 +11076,19 @@ button.close {
   background-color: #fff;
 }
 
-.navbar-default {
-  opacity: 0.85;
+.nav {
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0.90;
 }
-.navbar-default a.navbar-brand {
+.nav a.navbar-brand {
   width: 65px;
 }
-.navbar-default .navbar-brand {
+.nav .navbar-brand {
   padding: 0 15px;
   height: 50px;
 }
-.navbar-default .row-header {
+.nav .row-header {
   margin: 0 auto;
   padding: 0;
 }
@@ -11172,11 +11174,13 @@ button.close {
   background-color: #BA94D1;
   text-align: center;
 }
-.copyright .navbar-nav {
-  padding: 0 10px 40px;
-}
-.copyright p.eighty {
+.copyright div > p.eighty {
   padding: 20px 0 20px 0;
+}
+.copyright div > .nav {
+  float: none;
+  margin: 0 auto;
+  padding: 0 10px 40px !important;
 }
 
 .bokskar-modal-lg {
@@ -11339,6 +11343,7 @@ header {
 }
 header.title {
   padding-left: 10px;
+  margin: 0 15px;
 }
 header.info {
   padding-right: 10px;
@@ -11442,8 +11447,13 @@ header.info {
 html,
 body {
   background-color: white;
-  font-family: 'Segoe UI', Segoe UI, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Segoe UI, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
+  z-index: 0;
+}
+
+.main-container {
+  padding: 56px 0 0 0;
 }
 
 .full-width {
@@ -11466,10 +11476,8 @@ body {
   font-size: x-large;
 }
 .icon-container .media-body .media-heading,
-.media .media-body .media-heading {
-  color: #494948;
-}
 .icon-container .media-body p,
+.media .media-body .media-heading,
 .media .media-body p {
   color: #494948;
 }
@@ -11505,17 +11513,6 @@ body {
 .btn-default:hover {
   background: #494948;
   color: #C3C3CB;
-}
-
-.jumbotron {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-color: white;
-  color: #494948;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  min-height: 500px;
 }
 
 .eighty {
@@ -11634,11 +11631,6 @@ address {
   font-size: 80%;
   margin: 0;
   color: #0f0f0f;
-}
-
-body {
-  padding: 50px 0 0 0;
-  z-index: 0;
 }
 
 .navbar-default {

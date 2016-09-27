@@ -22,18 +22,18 @@
 html,
 body {
   background-color: white;
-  font-family: 'Segoe UI', Segoe UI, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Segoe UI, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+                'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
-}
-.full-width {
-  width: 100%;
+  z-index: 0;
 }
 
-body {
-  .container-fluid {
-    // padding-left: 0;
-    // padding-right: 0;
-  }
+.main-container {
+  padding: 56px 0 0 0;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .btn-form-login {
@@ -50,11 +50,9 @@ body {
     font-size: x-large;
   }
   .media-body {
-    .media-heading {
-      color: $dark-grey;
-    }
+    .media-heading,
     p {
-      color: $dark-grey;;
+      color: $dark-grey;
     }
   }
 }
@@ -90,17 +88,6 @@ body {
     background: $dark-grey;
     color: $secondary-color;
   }
-}
-
-.jumbotron {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-color: white;
-  color: $dark-grey;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  min-height: 500px;
 }
 
 .eighty {
@@ -228,11 +215,6 @@ address {
   font-size: 80%;
   margin: 0;
   color: #0f0f0f;
-}
-
-body {
-  padding: 50px 0 0 0;
-  z-index: 0;
 }
 
 .navbar-default {

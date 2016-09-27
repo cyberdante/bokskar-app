@@ -45,7 +45,7 @@ module.exports = function (grunt) {
         }
       },
       scss: {
-        files: ['<%= yeoman.app %>/styles/main-styles.scss'],
+        files: ['<%= yeoman.app %>/styles/main-styles.scss','<%= yeoman.app %>/styles/{,*/}*.scss'],
         tasks: ['sass:dev']
       },
       jsTest: {

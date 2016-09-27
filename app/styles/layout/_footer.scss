@@ -94,11 +94,13 @@
   background-color: $light-purple;
   text-align: center;
 
-  .navbar-nav {
-    padding: 0 10px 40px;
+  div > p.eighty {
+    padding: 20px 0 20px 0;
   }
 
-  p.eighty {
-    padding: 20px 0 20px 0;
+  div > .nav {
+    float: none;
+    margin: 0 auto;
+    padding: 0 10px 40px !important;
   }
 }
