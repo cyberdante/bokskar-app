@@ -1,5 +1,62 @@
-$primary-color: #9424D0;
-$secondary-color: #C3C3CB;
-$dark-grey: #494948;
-$light-purple: #BA94D1;
-$medium-purple: #B000B0;
+// Colors
+// ======
+
+// BOKSkar Colors
+$bsk-primary-color: #9424D0;
+$bsk-secondary-color: #C3C3CB;
+$bsk-dark-grey: #494948;
+$bsk-light-purple: #BA94D1;
+$bsk-medium-purple: #B000B0;
+
+// Boostrap color overrides
+
+$brand-primary: $bsk-primary-color;
+
+// Font Awesome
+
+// icon colors
+// -----------
+.fa {
+  color: $bsk-primary-color;
+}
+.fa.fa-inverse {
+  color: white;
+}
+
+// Typography
+// ==========
+
+// Base font
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$font-size-base: 16px;
+
+// Break points
+// ============
+
+// adjust sm break-point to fix responsive navbar
+$screen-sm-min: 785px;
+
+// Type
+// ====
+$hr-border: $bsk-light-purple;
+$blockquote-border-color: $bsk-primary-color;
+
+// Forms
+// =====
+
+// purple focus border for forms
+$input-border-focus: $bsk-light-purple;
+
+// Navbar
+// ======
+// navbar white. transparent background
+$navbar-default-bg: rgba(255, 255, 255, .85);
+
+// navbar links
+$navbar-default-link-color: $bsk-dark-grey;
+$navbar-default-link-active-bg: transparent;
+
+// Pancake button BOKSkar style
+$navbar-default-toggle-hover-bg: $bsk-secondary-color;
+$navbar-default-toggle-icon-bar-bg: $bsk-primary-color;
+$navbar-default-toggle-border-color: transparent;

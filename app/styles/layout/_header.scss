@@ -1,20 +1,20 @@
 @import "../helpers/variables";
 
 .navbar-default {
-  opacity: 0.85;
+  text-transform: uppercase;
 
-  a.navbar-brand {
-    width: 65px;
+  .navbar-nav {
+    li a span {
+      border-bottom: 5px solid transparent;
+    }
+    li.active a span {
+      padding-bottom: 12px;
+      border-bottom: 5px solid $bsk-primary-color;
+      transition: border-color .5s ease;
+    }
   }
+}
 
-  .navbar-brand {
-    padding: 0 15px;
-    height: 50px;
-  }
-
-  .row-header {
-    margin: 0 auto;
-    padding: 0;
-  }
-
+a.navbar-brand {
+  padding-left: 5px;
 }

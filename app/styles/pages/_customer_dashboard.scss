@@ -1,78 +1,78 @@
-
-
-/* Header bar */
-header {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  color: $secondary-color;
-  background: $primary-color;
-  margin-top: 2px;
-
-  &.title {
-    padding-left: 10px;
-    margin: 0 15px;
-  }
-  &.info {
-    padding-right: 10px;
-  }
-}
-
-/* Wraps both the sidebar and the main content pane */
-.wrapper {
-  background: $primary-color;
-  overflow-x: hidden;
-}
-
-/* Sidebar */
-.sidebar {
-  width: 200px;
-  margin-left: -150px;
-  float: left;
-  background: $primary-color;
-
-  &.displayed {
-    margin-left: 0;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-
-    li {
-      width: 100%;
-
-      a {
-        color: $secondary-color;
-
-        &:hover {
-          color: $primary-color;
-        }
-      }
-
-      &:first-child a {
-        color: $primary-color;
-        background: $secondary-color;
-      }
-    }
-  }
-}
-
-/* Main content */
-.main-content {
-  width: calc(100% - 50px);
-  margin-left: 50px;
-  background: white;
-  height: 100%;
-}
-
-.sidebar,
-.main-content {
-  transition: margin 200ms ease-out;
-}
-
-.sidebar.displayed + .main-content {
-  margin-left: 200px;
-}
+//
+//
+// /* Header bar */
+// header {
+//   height: 50px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//
+//   color: $secondary-color;
+//   background: $primary-color;
+//   margin-top: 2px;
+//
+//   &.title {
+//     padding-left: 10px;
+//     margin: 0 15px;
+//   }
+//   &.info {
+//     padding-right: 10px;
+//   }
+// }
+//
+// /* Wraps both the sidebar and the main content pane */
+// .wrapper {
+//   background: $primary-color;
+//   overflow-x: hidden;
+// }
+//
+// /* Sidebar */
+// .sidebar {
+//   width: 200px;
+//   margin-left: -150px;
+//   float: left;
+//   background: $primary-color;
+//
+//   &.displayed {
+//     margin-left: 0;
+//   }
+//
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//
+//     li {
+//       width: 100%;
+//
+//       a {
+//         color: $secondary-color;
+//
+//         &:hover {
+//           color: $primary-color;
+//         }
+//       }
+//
+//       &:first-child a {
+//         color: $primary-color;
+//         background: $secondary-color;
+//       }
+//     }
+//   }
+// }
+//
+// /* Main content */
+// .main-content {
+//   width: calc(100% - 50px);
+//   margin-left: 50px;
+//   background: white;
+//   height: 100%;
+// }
+//
+// .sidebar,
+// .main-content {
+//   transition: margin 200ms ease-out;
+// }
+//
+// .sidebar.displayed + .main-content {
+//   margin-left: 200px;
+// }
