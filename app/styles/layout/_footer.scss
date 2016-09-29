@@ -1,7 +1,41 @@
 @import "../helpers/variables";
 
 #main-footer {
-  background: $bsk-light-purple;
+  background: $bsk-footer-dark;
+
+  // info section
+  .footer-info {
+    h4 {
+      padding-top: 10px;
+      color: white;
+    }
+
+    li {
+      font-size: small;
+      line-height: 1.5em;
+      padding-bottom: 5px;
+      color: $bsk-secondary-color;
+    }
+  }
+
+  // bottom section (copyright + social icons)
+  .footer-bottom {
+    background: $bsk-light-purple;
+
+    .copyright {
+      small {
+        color: $bsk-medium-purple;
+      }
+
+      .navbar-nav {
+        padding: 0 10px 40px;
+      }
+    }
+
+    .social {
+      padding: 10px 0;
+    }
+  }
 }
 
 // --------------
@@ -29,94 +63,3 @@
     }
   }
 }
-
-// Copyright
-// ---------
-.copyright {
-  background-color: $bsk-light-purple;
-  // text-align: center;
-
-  .navbar-nav {
-    padding: 0 10px 40px;
-  }
-}
-
-// .roominess {
-//   padding: 20px 0;
-// }
-//
-// .room-under {
-//   padding-bottom: 20px;
-// }
-//
-// .row-footer {
-//   background-color: $dark-grey;
-//   margin: 0 auto;
-//
-//   a {
-//     color: $primary-color;
-//   }
-//
-//   a:hover {
-//     color: $medium-purple;
-//   }
-//
-//   .info {
-//     color: $secondary-color;
-//
-//     .row {
-//       padding: 10px 0;
-//
-//       label {
-//         font-weight: normal;
-//         font-size: medium;
-//       }
-//
-//       .smaller {
-//         font-size: medium;
-//       }
-//
-//       .thin {
-//         border-color: $primary-color;
-//         color: $primary-color;
-//         margin: 15px 0 0 0;
-//       }
-//     }
-//
-//     .topless {
-//       padding-top: 0;
-//     }
-//
-//     .bottomless {
-//       padding-bottom: 0;
-//     }
-//
-//     .form-group.bottomless {
-//       margin-bottom: 0;
-//     }
-//
-//     .btn-twitter {
-//       font-size: medium;
-//       padding-left: 0;
-//     }
-//   }
-//
-//   h4.hightened {
-//     color: white;
-//     padding-bottom: 10px;
-//     text-transform: uppercase;
-//   }
-// }
-//
-// .timeline-Tweet {
-//   padding: 10px 0;
-// }
-//
-
-//
-
-//
-//   p.eighty {
-//     padding: 20px 0 20px 0;
-//   }
-// }

@@ -11117,7 +11117,29 @@ a.navbar-brand {
 }
 
 #main-footer {
+  background: #222326;
+}
+#main-footer .footer-info h4 {
+  padding-top: 10px;
+  color: white;
+}
+#main-footer .footer-info li {
+  font-size: small;
+  line-height: 1.5em;
+  padding-bottom: 5px;
+  color: #C3C3CB;
+}
+#main-footer .footer-bottom {
   background: #BA94D1;
+}
+#main-footer .footer-bottom .copyright small {
+  color: #B000B0;
+}
+#main-footer .footer-bottom .copyright .navbar-nav {
+  padding: 0 10px 40px;
+}
+#main-footer .footer-bottom .social {
+  padding: 10px 0;
 }
 
 .sign-up-banner {
@@ -11136,13 +11158,6 @@ a.navbar-brand {
 }
 .sign-up-banner .btn-primary:hover {
   border-color: white;
-}
-
-.copyright {
-  background-color: #BA94D1;
-}
-.copyright .navbar-nav {
-  padding: 0 10px 40px;
 }
 
 #home-page .jumbotron {
