@@ -8,5 +8,9 @@
 *.swp
 *~
 
-bower_components/*
-node_modules/*
+# - added by Yeoman
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
