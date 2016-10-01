@@ -10,8 +10,12 @@
 // $opacity: Opacity value (0..1) [def: 1]
 // $gradient: Whether to use a gradient on the HR [def: false]
 // $font-size: Text font-size (best if within 1-5ems) [def: 1em]
+// $is-fa-icon: Whether or not data-attribute is a font-awesome code [def: false].
+//              Ex: <hr data-content="&#xf085;">
+//
+// * data-content: attribute, pass the text here *
 
-@mixin fancy-hr ($color: black, $color-line: black, $bg-color: white, $align: center, $opacity: 1, $gradient: false, $font-size: 1em) {
+@mixin fancy-hr ($color: black, $color-line: black, $bg-color: white, $align: center, $opacity: 1, $gradient: false, $font-size: 1em, $is-fa-icon: false) {
   line-height: 1em;
   position: relative;
   outline: 0;
@@ -38,6 +42,11 @@
   }
 
   &:after {
+
+    @if ($is-fa-icon) {
+      font-family: "FontAwesome";
+    }
+
     content: attr(data-content);
     position: relative;
     display: inline-block;
