@@ -20,6 +20,10 @@
       filter: brightness(60%) grayscale(70%);
 
     }
+
+    .btn {
+      border: none;
+    }
   }
 
   // Main
@@ -49,4 +53,28 @@
       $bg-color: #F5F5F5);
   }
 
+  // Carousel
+  .carousel-inner {
+    .item {
+      margin-top: 150px;
+      margin-bottom: 60px;
+    }
+
+    .carousel-caption {
+      top: -135px;
+      text-shadow: none;
+      color: $bsk-primary-color;
+
+      span {
+        color: white;
+        border-radius: 5px;
+        background: $bsk-primary-color;
+        padding: 5px 10px;
+      }
+
+      p {
+        padding: 10px 0;
+      }
+    }
+  }
 }
