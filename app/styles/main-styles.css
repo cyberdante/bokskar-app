@@ -11322,6 +11322,28 @@ a.navbar-brand {
   color: #9424D0;
 }
 
+.purple {
+  color: #9424D0;
+}
+
+#ays-carousel-steps .carousel-inner .carousel-row-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: block;
+  height: 15em;
+  overflow: hidden;
+}
+#ays-carousel-steps .carousel-inner .carousel-caption {
+  color: #494948;
+  font-size: 20px;
+  top: 60px;
+}
+
+.lead-in img {
+  padding-top: 40px;
+}
+
 #customer-support .jumbotron {
   position: relative;
   background: transparent;
