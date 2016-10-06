@@ -1,8 +1,15 @@
 {
   "name": "bokskarapp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "UNLICENSED",
   "private": true,
+  "keywords": [],
+  "author": "Damian Perez <damian.perez@bokskar.com>",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
+    "eslint": "3.6.0",
+    "eslint-config-google": "0.6.0",
     "grunt": "^0.4.5",
     "grunt-angular-templates": "^0.5.7",
     "grunt-concurrent": "^1.0.0",
@@ -37,9 +44,22 @@
     "time-grunt": "^1.0.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6"
   },
+  "main": "index.js",
   "scripts": {
-    "test": "karma start test/karma.conf.js"
+    "setup": "npm install eslint -D -E && npm install eslint-config-google -D -E && npm run configure-eslint && npm run gitignore",
+    "configure-eslint": "echo $'{\n  \"extends\": \"google\",\n  \"rules\": {\n    \"require-jsdoc\": 0\n  }\n}' > .eslintrc.json",
+    "gitignore": "echo node_modules > .gitignore",
+    "lint": "eslint ./ ./app/scripts ./test",
+    "test": "karma start test/karma.conf.js --single-run",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-winston": "^2.0.0",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
   }
 }
