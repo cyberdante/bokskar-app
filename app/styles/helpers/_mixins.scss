@@ -1,0 +1,62 @@
+// fancy-hr
+// --------
+// Use this to add text to your <hr> tags
+// Options:
+
+// $color: The color to use on the text. [def: black]
+// $color-line: The color to use on the actual hr line. [def: black]
+// $bg-color: The background on the text. IMPORTANT! should match parent background! [def: white]
+// $align: Where to put the text (left, center, right) [def: center]
+// $opacity: Opacity value (0..1) [def: 1]
+// $gradient: Whether to use a gradient on the HR [def: false]
+// $font-size: Text font-size (best if within 1-5ems) [def: 1em]
+// $is-fa-icon: Whether or not data-attribute is a font-awesome code [def: false].
+//              Ex: <hr data-content="&#xf085;">
+//
+// * data-content: attribute, pass the text here *
+
+@mixin fancy-hr ($color: black, $color-line: black, $bg-color: white, $align: center, $opacity: 1, $gradient: false, $font-size: 1em, $is-fa-icon: false) {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  height: 1.5em;
+  opacity: $opacity;
+  text-align: $align;
+
+  &:before {
+    content: "";
+
+    @if $gradient {
+      background: linear-gradient(to right, transparent, $color-line, transparent);
+    }
+    @else {
+      background: $color-line;
+    }
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px; // hr height
+  }
+
+  &:after {
+
+    @if ($is-fa-icon) {
+      font-family: "FontAwesome";
+    }
+
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    padding: 0 .5em;
+    // Quadratic interpolation to figure out line-height (1 - 5em)
+    line-height: 2.56 - 1.0714 * $font-size + 0.1286 * $font-size/1.0em * $font-size;
+    font-size: $font-size;
+
+    // specify the background color of the container element
+    background-color: $bg-color;
+    color: $color;
+  }
+}

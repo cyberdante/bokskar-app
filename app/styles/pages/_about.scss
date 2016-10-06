@@ -1,0 +1,30 @@
+.hr-purple-small {
+  width: 100px;
+  height: 3px;
+  color: $bsk-primary-color;
+  background: $bsk-primary-color;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.grn-text{
+  color:#21b04b;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #9424D0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+.hr-cogs {
+  @include fancy-hr($color: $bsk-primary-color, $color-line: $bsk-primary-color, $font-size: 3em, $is-fa-icon: true);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

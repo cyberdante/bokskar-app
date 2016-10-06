@@ -1,0 +1,42 @@
+#customer-support {
+  // Jumbotron
+  .jumbotron {
+    position: relative;
+    background: transparent;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 5px;
+      z-index: -1;
+      background-image: url("../../images/temp-background.jpg");
+      background-size: cover;
+      filter: brightness(40%);
+    }
+
+    .container {
+      color: white;
+
+      a {
+        border: none;
+      }
+    }
+  }
+
+
+  // Bottom cards
+  .cards {
+    p {
+      font-weight: lighter;
+      line-height: 3rem;
+    }
+
+    span.h4 {
+      display: inline-block;
+      padding: 5px 0;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+// .main {
+//     display: block;
+//     overflow: hidden;
+//     width: 100%;
+//     position: relative;
+//     z-index: 1;
+//     top: -96px;
+//     margin-bottom: -96px;
+//     background-image: none;
+//
+//     .video .page-overview,
+//     .video .page-overview .section-image {
+//       background-image: none;
+//       pointer-events: auto;
+//     }
+//
+//     .section-background {
+//       // opacity: 0.75;
+//
+//       .section-bleed {
+//         pointer-events: auto;
+//         -webkit-filter: blur(0.001px);
+//       }
+//     }
+//
+//     .section-foreground {
+//       pointer-events: auto;
+//       opacity: 1;
+//       display: block;
+//       position: absolute;
+//       top: 0;
+//       width: 100%;
+//
+//       .bokskar-headline {
+//         /*
+//         .section-image {
+//           background-size: cover;
+//           background-position: center center;
+//           position: absolute;
+//           z-index: -1;
+//           min-height: 600px;
+//           height: 100vh;
+//           width: 100%;
+//         }
+//         */
+//
+//         // min-height: 1200px;
+//         // height: 200vh;
+//         // min-height: 600px;
+//         height: 100vh;
+//         min-height: 100vh;
+//         position: relative;
+//         z-index: 2;
+//
+//         .section-content {
+//           font-style: normal;
+//           font-family: "Segoe UI Light", sans-serif;
+//           font-size: 18px;
+//           line-height: 1.45;
+//           text-align: center;
+//           //font-weight: 400;
+//           margin-bottom: 0;
+//           position: relative;;
+//           //left: 50%;
+//           top: 50%;
+//           -webkit-transform: translateY(-50%);
+//           -ms-transform: translateY(-50%);
+//           transform: translateY(-50%);
+//
+//           .bokskar-copy {
+//             color: white;
+//             // border: 2px solid white;
+//             margin-left: auto;
+//             margin-right: auto;
+//             padding: 15px;
+//           }
+//
+//           .sign-up-container {
+//             // width: 600px;
+//             margin: 0 auto;
+//
+//             .btn-lg {
+//               font-size: xx-large;
+//               text-transform: uppercase;
+//               height: 60px;
+//             }
+//           }
+//
+//           .btn + .btn {
+//             margin: 25px;
+//           }
+//         }
+//       }
+//
+//       .icon-chevron-container {
+//         bottom: 10px;
+//         font-size: xx-large;
+//         position: fixed;
+//         text-align: center;
+//
+//         span.glyphicon-chevron-down {
+//           color: $bsk-primary-color;
+//         }
+//       }
+//     }
+// }
