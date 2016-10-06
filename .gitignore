@@ -17,3 +17,7 @@
 
 # - npm
 npm-debug.log
+
+# - Grunt-generated files
+/app/styles/main-styles.css
+/app/styles/main-styles.css.map
