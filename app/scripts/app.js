@@ -24,8 +24,8 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/customer-dashboard', {
-        templateUrl: 'views/customer-dashboard.html',
+      .when('/customer-support', {
+        templateUrl: 'views/customer-support.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })

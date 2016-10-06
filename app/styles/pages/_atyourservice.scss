@@ -1,0 +1,29 @@
+.purple {
+  color: $bsk-primary-color;
+}
+
+#ays-carousel-steps {
+  .carousel-inner {
+
+    .carousel-row-wrapper {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      display: block;
+      height: 15em;
+      overflow: hidden;
+    }
+
+    .carousel-caption {
+      color: $bsk-dark-grey;
+      font-size: 20px;
+      top: 60px;
+    }
+  }
+}
+
+.lead-in {
+  img {
+    padding-top: 40px;
+  }
+}

@@ -1,44 +1,16 @@
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
+.hr-purple-small {
+  width: 100px;
+  height: 3px;
+  color: $bsk-primary-color;
+  background: $bsk-primary-color;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-.strike > span {
-  position: relative;
-  display: inline-block;
-}
-
-.strike > span:before,
-.strike > span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 9999px;
-  height: 1px;
-  background: #9424D0;
-}
-
-.strike > span:before {
-  right: 100%;
-  margin-right: 15px;
-}
-
-.strike > span:after {
-  left: 100%;
-  margin-left: 15px;
-}
-.v-divider{
-  margin-left:5px;
-  margin-right:5px;
-  width:1px;
-  height:100%;
-  border-left:1px yellow;
-}
 .grn-text{
-  color:#66ff33;
+  color:#21b04b;
 }
+
 .row.vdivide [class*='col-']:not(:last-child):after {
   background: #9424D0;
   width: 1px;
@@ -49,4 +21,10 @@
   bottom: 0;
   right: 0;
   min-height: 70px;
+}
+
+.hr-cogs {
+  @include fancy-hr($color: $bsk-primary-color, $color-line: $bsk-primary-color, $font-size: 3em, $is-fa-icon: true);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

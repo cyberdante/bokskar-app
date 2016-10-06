@@ -1,106 +1,65 @@
 @import "../helpers/variables";
 
-.roominess {
-  padding: 20px 0;
-}
+#main-footer {
+  background: $bsk-footer-dark;
 
-.room-under {
-  padding-bottom: 20px;
-}
+  // info section
+  .footer-info {
+    h4 {
+      padding-top: 10px;
+      color: white;
+    }
 
-.row-footer {
-  background-color: $dark-grey;
-  margin: 0 auto;
-
-  a {
-    color: $primary-color;
+    li {
+      font-size: small;
+      line-height: 1.5em;
+      padding-bottom: 5px;
+      color: $bsk-secondary-color;
+    }
   }
 
-  a:hover {
-    color: $medium-purple;
-  }
+  // bottom section (copyright + social icons)
+  .footer-bottom {
+    background: $bsk-light-purple;
 
-  .info {
-    color: $secondary-color;
+    .copyright {
+      small {
+        color: $bsk-medium-purple;
+      }
 
-    .row {
+      .navbar-nav {
+        padding: 0 10px 40px;
+      }
+    }
+
+    .social {
       padding: 10px 0;
-
-      label {
-        font-weight: normal;
-        font-size: medium;
-      }
-
-      .smaller {
-        font-size: medium;
-      }
-
-      .thin {
-        border-color: $primary-color;
-        color: $primary-color;
-        margin: 15px 0 0 0;
-      }
     }
-
-    .topless {
-      padding-top: 0;
-    }
-
-    .bottomless {
-      padding-bottom: 0;
-    }
-
-    .form-group.bottomless {
-      margin-bottom: 0;
-    }
-
-    .btn-twitter {
-      font-size: medium;
-      padding-left: 0;
-    }
-  }
-
-  h4.hightened {
-    color: white;
-    padding-bottom: 10px;
-    text-transform: uppercase;
   }
 }
 
-.timeline-Tweet {
-  padding: 10px 0;
-}
-
+// --------------
+// Sign up banner
+// --------------
 .sign-up-banner {
   color: white;
-  background-color: $primary-color;
+  background-color: $bsk-primary-color;
+
+  border-top: 2px solid white;
   border-bottom: 2px solid white;
-  font-size: large;
-  margin: 0;
-  min-height: 150px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  text-align: center;
+
+  // min-height: 150px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 
   .btn-primary {
-    background: $medium-purple;
+    background: $bsk-medium-purple;
     border-color: white;
     border-radius: 0;
     color: white;
-  }
-}
 
-.copyright {
-  background-color: $light-purple;
-  text-align: center;
-
-  div > p.eighty {
-    padding: 20px 0 20px 0;
-  }
-
-  div > .nav {
-    float: none;
-    margin: 0 auto;
-    padding: 0 10px 40px !important;
+    &:hover {
+      border-color: white;
+    }
   }
 }
