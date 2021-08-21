@@ -3,6 +3,7 @@
   // Jumbotron and video loop
   .jumbotron {
     background: transparent;
+    height: 100vh;
 
     .container {
       color: white;
@@ -17,8 +18,7 @@
       z-index: -1;
       // TODO: Some javascript needed to make the video responsive
       width: 100%;
-      filter: brightness(60%) grayscale(70%);
-
+      // filter: brightness(60%) grayscale(70%);
     }
 
     .btn {
